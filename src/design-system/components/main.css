@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text&display=swap');
+
+/* font-family: 'Golos Text', sans-serif; */
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    margin: 0;
+    transition: 0.2s linear;
+    -webkit-transition: 0.2s linear;
+    -moz-transition: 0.2s linear;
+    -ms-transition: 0.2s linear;
+    -o-transition: 0.2s linear;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Golos Text', sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 1rem;
+    background: none;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #f2545f;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+::selection {
+    background-color: #f2545f;
+}
+
+.container-main-project {
+    margin: 0 3rem;
+}
+
+a:hover {
+    color: #f2545f;
+}
+
+.to-top {
+    position: fixed;
+    width: 4rem;
+    height: 4rem;
+    background-color: #f2545f;
+    bottom: 2rem;
+    right: 2rem;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    opacity: 0.5;
+    cursor: pointer;
+    color: white;
+    z-index: 5;
+}
+
+.to-top:hover {
+    opacity: 1;
+}
+
+@media (max-width: 425px) {
+    .H3-in-Header {
+        font-size: 1rem !important;
+    }
+
+    .Title-in-Header {
+        font-size: 2rem !important;
+    }
+}
+
+
+.navbar-content {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-content .responsive_navbar {
+    transform: none;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+}
+
+
+.nav-btn {
+    display: none;
+}
+
+@media only screen and (max-width: 1024px) {
+    .nav-btn {
+        display: inline-block;
+    }
+
+    .navbar-content {
+        position: fixed;
+        top: -100vh;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: center !important;
+        gap: 2rem !important;
+        background-color: black;
+        transition: 0.5s;
+        -webkit-transition: 0.5s;
+        -moz-transition: 0.5s;
+        -ms-transition: 0.5s;
+        -o-transition: 0.5s;
+    }
+
+    .responsive_nav {
+        transform: translateY(100vh);
+    }
+
+    .nav-close-btn {
+        position: absolute;
+        top: 2rem;
+        right: 2rem;
+    }
+
+    .css-1tn86by-DivVideo,
+    .css-ohjg1s-WatchVideoText,
+    .css-177asmk-DivAbout,
+    .css-bvl4c9-DivImageAbout,
+    .css-aqwe6q-RegisterText,
+    .css-1673es7-RegisterForm,
+    .CountactUsForm,
+    .CountactUsText {
+        width: 100% !important;
+    }
+
+    .css-19nh9pd-Link {
+        font-size: 1rem !important;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    .up-image {
+        width: 49% !important;
+    }
+
+    .css-m7vfo2-UpOverviewWrapper {
+        flex-direction: column !important
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .up-image {
+        width: 100% !important;
+    }
+}
