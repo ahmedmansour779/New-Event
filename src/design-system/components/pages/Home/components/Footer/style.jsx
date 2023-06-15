@@ -5,7 +5,8 @@ export const FooterWrapper = styled("section")`
     label: FooterWrapper;
     padding: 5rem;
     text-align: center;
-    color: ${theme.gray};
+    color: ${theme.white};
+    background-color: ${theme.secondry};
 `
 export const MadeBy = styled("span")`
     label: MadeBy;
