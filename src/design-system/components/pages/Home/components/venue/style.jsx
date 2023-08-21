@@ -29,5 +29,5 @@ export const Details = styled("div")`
     label: Details;
     font-weight: bold;
     padding-bottom: 1rem;
-    line-height: 1rem;
+    line-height: 2rem;
 `

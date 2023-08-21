@@ -14,7 +14,6 @@ import Venue from "./design-system/components/pages/Home/components/venue/Venue"
 import Scroll from "./design-system/components/scroll to top/Scroll";
 
 function App() {
-
   return (
     <>
       <>
